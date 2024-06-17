@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+.container{
+    margin: 75px auto;
+    max-width: 720px;
+    width: auto;
+}
+
+form{
+    margin-top: 48px;
+}
+
+input, textarea, button{
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button{
+    background-color: #1097af;
+    border: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button:hover{
+    background-color: #0c6575;
+}
+
+.message{
+    margin-top: 12px;
+    
+}
+
+.valido-message{
+    color: green;
+    font-size: 32px;
+    padding-left: 54px;
+}
+
+.invalido-message{
+    color: red;
+    font-size: 32px;
+    padding-left: 54px;
+}
